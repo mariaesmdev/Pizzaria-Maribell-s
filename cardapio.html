@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png" type="logoicon">
+    <title>Cardápio</title>
+</head>
+<body>
+    
+<header>
+   <img src="logo (1).png" alt="Logo Maribella's" class="logo">
+    <nav id="menu">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="unidades.html">Unidades</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav>
+    <button id="menu-icon" class = 'menu-icon'>&#9776;</button>
+</header>
+
+<div class="texto-cardp">
+  <p> PIZZAS DISPONÍVEIS </p>
+</div>
+<div id="container-slider">
+  <div id="slider-cardapio" onmouseover="parar()" onmouseout="iniciaSlider()">
+  
+    <button class="btn left" onclick="troca(-1)">
+      <img src="arrow - Copia.png" alt="Voltar" style="width: 20px; height: 20px;">
+    </button>
+    <button class="btn right" onclick="troca(1)">
+      <img src="arrow.png" alt="Avançar" style="width: 20px; height: 20px;">
+    </button>
+  </div>
+</div>
+
+<main class="main-cardapio">
+<div class="img-cardapio">
+<img src="Calabresa.jpg" alt="Pizza de Calabresa">
+<img src="cebola.jpg" alt="Pizza de cebola">
+<img src="pexels-enginakyurt-1435900.jpg" alt="">
+<img src="pexels-olly-3987096.jpg" alt="">
+<img src="pexels-enginakyurt-1527602.jpg" alt="">
+</div>
+<div class="texto-status">
+  <p id="status"></p>
+</div>
+</main>
+
+
+ <div class="texto-desc">
+  <p>Gostou das nossas Pizzas?  <br>
+Então não deixe de experimentar cada sabor! <br>
+Aqui na Maribella’s, a tradição e o sabor se encontram em cada fatia. <br>
+Nossas pizzas são preparadas com ingredientes frescos, massa artesanal e aquele toque especial que conquista todos os paladares. Escolha a sua preferida e aproveite momentos deliciosos com a gente! 🍕❤️
+ </p>
+</div>
+
+ <a href="unidades.html" class="btn-text">CONHECER AS UNIDADES</a>
+
+
+
+
+
+
+<footer id="contatos">
+  <div class="footer-container">
+    
+    <div class="footer-logo">
+      <img src="logo (1).png" alt="Logo Maribella's" class="logofooter">
+    </div>
+
+    <div class="footer-info">
+      <p>
+        Contato: (21) 98761-2432 <br>
+        Teve algum problema com seu pedido?<br>
+        Fala com a gente que a gente resolve rapidinho!<br>
+        contato@maribellas.com.br
+        <br><br><br>
+        Funcionamento: <br>
+        Domingo a Quinta – 18h às 23h20 <br>
+        Sexta e Sábado – 18h às 23h40
+      </p>
+    </div>
+
+    <div class="social-footer">
+     
+        <div class="insta">
+        <img src="instagram.png" alt="Instagram"  class="imgfooter" />
+        <span>@maribellapizzas</span>
+        </div>
+
+        <div class="ttk">
+        <img src="icons8-tiktok-48.png" alt="TikTok" class="imgfooter"/>
+        <span>@maribellapizzas</span>
+        </div>
+
+        <div class="wpp">
+        <img src="whatsapp.png" alt="WhatsApp"  class="imgfooter" />
+        <span>(21) 98761-2432</span>
+        </div>
+
+
+    </div>
+  </div>
+
+
+    <script src="java.js"> </script>
+</body>
+</html>
